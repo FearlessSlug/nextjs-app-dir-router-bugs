@@ -45,13 +45,13 @@ export default function RouterTestComp() {
         <h1 className="text-xl text-center font-bold">{"useRouter()"}</h1>
         <div className="max-w-2xl m-auto flex justify-around">
           <button className={twLink} onClick={() => router.push("/test1")}>
-            router.push("/test1")
+            router.push(&quot;/test1&quot;)
           </button>
           <button className={twLink} onClick={() => router.push("/test2")}>
-            router.push("/test2")
+            router.push(&quot;/test2&quot;)
           </button>
           <button className={twLink} onClick={() => router.push("/404-page")}>
-            router.push("/404-page")
+            router.push(&quot;/404-page&quot;)
           </button>
         </div>
       </div>
