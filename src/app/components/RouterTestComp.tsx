@@ -38,7 +38,7 @@ export default function RouterTestComp() {
             notFound()
           </Link>
           <Link href={{ pathname: "/test3", query: { redirect: true } }}>
-            redirect('/404-page')
+            redirect(&apos;/404-page&apos;)
           </Link>
         </div>
         <br />
